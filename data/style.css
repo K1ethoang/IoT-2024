@@ -1,0 +1,59 @@
+  .bg {
+    background-image: url(bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .logo {
+    width: 5%;
+  }
+
+  .banner{
+    width: 10%;
+  }
+
+  .logo:nth-child(2n+1) {
+    margin-right: 10px;
+  }
+
+  .n {
+    width: 100px;
+    height: 40px;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .n:hover {
+    opacity: 0.8;
+  }
+
+  .o {
+    background-color: #4caf50;
+  }
+
+  .c {
+    background-color: #f44336;
+  }
+
+  .t {
+    font-size: 26px;
+  }
+
+  .bat {
+    color: #f44336;
+  }
+
+  .bat::after {
+    content: " STOP";
+  }
+
+  .tat {
+    color: #4caf50;
+  }
+
+  .tat::after {
+    content: " START";
+  }
